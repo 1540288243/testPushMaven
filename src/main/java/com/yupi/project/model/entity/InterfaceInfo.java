@@ -10,11 +10,11 @@ import lombok.Data;
 
 /**
  * 接口信息
- * @TableName interace_info
+ * @TableName interface_info
  */
-@TableName(value ="interace_info")
+@TableName(value ="interface_info")
 @Data
-public class InteraceInfo implements Serializable {
+public class InterfaceInfo implements Serializable {
     /**
      * 主键
      */
@@ -39,7 +39,7 @@ public class InteraceInfo implements Serializable {
     /**
      * 是否删除(0-未删, 1-已删)
      */
-    private Integer isDeleted;
+    private Integer isDelete;
 
     /**
      * 接口名称

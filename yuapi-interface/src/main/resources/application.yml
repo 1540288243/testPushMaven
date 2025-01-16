@@ -1,0 +1,8 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+yuapi:
+  client:
+    access-key: b4cd959f7e54ea7394581ae903ead40d
+    secret-key: 262b7d4d553d0693683df68ce43c2029
